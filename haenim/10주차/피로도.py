@@ -2,11 +2,6 @@ from itertools import permutations
 
 
 def solution(k, dungeons):
-    answer = -1
-
-    # dungeons = [ (required, consume) for required, consume in dungeons]
-    # print(dungeons)
-
     combs = permutations(dungeons, len(dungeons))
     max_explore_count = 0
     for comb in combs:

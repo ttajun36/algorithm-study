@@ -24,7 +24,7 @@ def divide(metrix):
     [1,0,1,0]]
 
     위, 왼쪽 -> 행 [0:2], 열 [0:2] -> 행 [0:mid], 열 [0:mid]
-    위, 오른쪽 -> 행 [0:2], 열 [0:length] -> 행 [0:mid], 열[mid:length]..
+    위, 오른쪽 -> 행 [0:2], 열 [mid:length] -> 행 [0:mid], 열[mid:length]..
     """
     # 1/4 조각 내기
     left = (0, mid)  # 왼쪽은 행이 mid이하인 곳
